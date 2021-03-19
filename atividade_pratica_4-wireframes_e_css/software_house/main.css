@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #845eb5;
+}
+
+.header h2, h5{
+    color: #f2f2f2;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
+
+.content p {
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 35px;
+}
+p {
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 35px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: #4b198f;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4caf50;
+  color: wheat;
+}
+
+.leftcolumn {
+  float: left;
+  width: 60%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
