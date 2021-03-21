@@ -1,0 +1,50 @@
+.all{
+    background-color: lightsteelblue;
+    box-shadow: 10px 5px 5px grey;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #D1D1D1;
+    padding: 10px 10px;
+    margin-bottom: 1rem;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #D1D1D1;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.square {
+    min-height: 150px;
+    max-height:150px;
+    min-width: 150px;
+    max-width: 150px;
+    background-color: #D1D1D1;
+}
+
+.container p{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+p{
+    margin: 0 4rem;
+    font-size: 1.5rem;
+}
